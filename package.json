@@ -1,17 +1,29 @@
 {
   "name": "express-gulp-less",
   "version": "1.0.0",
-  "description": "",
+  "description": "1.  First try to get the express server running. 2.  Are you reading the terminal, do you have to install modules? 3.  Create five routes, two that render a handlebar page, two that render json, and one that sends a message text. 4.  move the styles folder, into the public folder. 5.  Think about why you are doing that ^. 6.  Link up one of you handlebars page with the css in the styles folder. 7.  debug and fix the gulpfile",
   "main": "server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app.js"
   },
   "author": "Jim",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
     "gulp-watch": "^4.3.11"
   },
   "dependencies": {
-  }
+    "express": "^4.14.1",
+    "hbs": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kreecat/express-homework-debug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kreecat/express-homework-debug/issues"
+  },
+  "homepage": "https://github.com/Kreecat/express-homework-debug#readme"
 }
