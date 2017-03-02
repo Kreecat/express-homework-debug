@@ -16,9 +16,9 @@ gulp.task('watch', function(){
 gulp.task('compile-less', function(){
   // ./ starts you at the same level as whatever
   // file you are in
-  gulp.src('./server/pubic/styles/style.less')
+  gulp.src('./server/public/styles/*.less')
   .pipe(less())
-  .pipe(gulp.dest('./styles/'))
+  .pipe(gulp.dest('./server/public/styles/'))
 })
 
 
